@@ -1,0 +1,10 @@
+-> src/config => database and properties.. to handle db connections and connections
+-> src/data => this contains all the data access object layers to define database static methods available
+-> src/controllers => folder contains all the functions to handle HTTP requests and responses
+-> src/models => folder to define schema to store data in the database
+-> src/routes => folder that contain all the routes for the application
+-> src/templates => folder that contains all the templates when sending an email and other responses that need views
+-> src/services => folder that defines all the services to be used like sending emails, uploading media files to cloud.. e.t.c
+-> src/helpers => folder that contains all the helper functions like .. regex, functions to calculate dates, arithmetic, date of birth..e.t.c
+-> src/middlewares => folder that contains all the middlewares for the application
+-> src/.env => file that contains all the configuration and credentials for the application

@@ -1,0 +1,47 @@
+{
+  "name": "udsmleave_api",
+  "version": "1.0.0",
+  "description": "UDSM File management system for enhancing information workflow: A case of students' and staff's leaves",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvkedyson/udsmleave_api.git"
+  },
+  "author": "Kelvin Kedyson Zacharia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kelvkedyson/udsmleave_api/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.2",
+    "cloudinary": "^1.29.1",
+    "consola": "^2.15.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mkdir-recursive": "^0.4.0",
+    "mongoose": "^6.0.13",
+    "mongoose-autopopulate": "^0.16.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "ngrok": "^4.3.1",
+    "nodemailer": "^6.7.1",
+    "nodemailer-smtp-transport": "^2.7.4"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+
+}
